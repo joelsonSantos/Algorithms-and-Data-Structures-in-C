@@ -1,0 +1,19 @@
+#ifndef _CIRCULAR_SINGLY_LINKED_LIST_
+#define _CIRCULAR_SINGLY_LINKED_LIST_
+
+typedef struct sList CIRCULAR_SINGLY_LINKED_LIST;
+
+void init_list(CIRCULAR_SINGLY_LINKED_LIST**);
+CIRCULAR_SINGLY_LINKED_LIST* create_node();
+int full_stack(CIRCULAR_SINGLY_LINKED_LIST*);
+int exists(CIRCULAR_SINGLY_LINKED_LIST**, int);
+int is_empty(CIRCULAR_SINGLY_LINKED_LIST**);
+int search_list(CIRCULAR_SINGLY_LINKED_LIST**, int);
+void print_list(CIRCULAR_SINGLY_LINKED_LIST**);
+void add_last(CIRCULAR_SINGLY_LINKED_LIST**, int);
+int remove_first(CIRCULAR_SINGLY_LINKED_LIST**);
+int remove_last(CIRCULAR_SINGLY_LINKED_LIST**);
+int size_list(CIRCULAR_SINGLY_LINKED_LIST**);
+
+#endif
+
