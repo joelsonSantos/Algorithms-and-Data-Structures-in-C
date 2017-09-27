@@ -42,7 +42,7 @@ int main(){
   if(search_list(&list, 12)){
     printf("\n %d existe na lista \n", 12);
   }else{
-    printf("\n elemento inesistente! \n");
+    printf("\n elemento inexistente! \n");
   }
   printf("\nPesquisa o 200");
   if(search_list(&list, 200)){
