@@ -105,28 +105,6 @@ void add_last(DOUBLE_LIST** list, int element){
 	(*list) = node;
 }
 
-/*int remove_list(DOUBLE_LIST** list, int element){
-   if(is_empty(list)){
-      printf("\nThere is no elements in the list");
-      return 0;
-   }
-   DOUBLE_LIST* aux = (*list);
-   DOUBLE_LIST* prev;
-   
-   if(!exists(list, element)){
-	   printf("\n Element does not exist!");
-	   return 0;
-   }
-   
-   while(aux->next != NULL && aux->info != element){
-	  prev = aux;
-	  aux = aux->next;
-   }
-   prev->next = aux->next;
-   free(aux);
-   return element;
-}*/
-
 int remove_first(DOUBLE_LIST** list){
    if(is_empty(list)){
       printf("\nThere is no elements in the list");
